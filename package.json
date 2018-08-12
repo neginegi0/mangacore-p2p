@@ -56,13 +56,13 @@
     "url": "https://github.com/neginegi0/mangacore-p2p.git"
   },
   "dependencies": {
-    "mangacore-lib": "neginegi0/mangacore-lib",
+    "mangacore-lib": "https://github.com/neginegi0/mangacore-lib/archive/segwit.tar.gz",
     "bloom-filter": "^0.2.0",
-    "buffers": "neginegi0/node-buffers",
+    "buffers": "https://github.com/neginegi0/node-buffers/archive/master.tar.gz",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "mangacore-build": "neginegi0/mangacore-build",
+    "mangacore-build": "https://github.com/neginegi0/mangacore-build/archive/master.tar.gz",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
