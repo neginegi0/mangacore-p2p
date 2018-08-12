@@ -1,8 +1,8 @@
 'use strict';
 
 var gulp = require('gulp');
-var litecoreTasks = require('litecore-build');
+var mangacoreTasks = require('mangacore-build');
 
-litecoreTasks('p2p', {skipBrowser: true});
+mangacoreTasks('p2p', {skipBrowser: true});
 
 gulp.task('default', ['lint', 'coverage']);
